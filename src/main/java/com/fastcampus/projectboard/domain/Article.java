@@ -46,7 +46,7 @@ public class Article {
     @OneToMany(mappedBy = "article", cascade = CascadeType.ALL)
     @OrderBy("id")
     @ToString.Exclude
-    private final Set<ArticleComment> articleCommentSet = new LinkedHashSet<>();
+    private final Set<ArticleComment> articleComments = new LinkedHashSet<>();
 
 
     /* 메타 데이터 */
