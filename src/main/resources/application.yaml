@@ -20,7 +20,7 @@ spring:
     properties:
       hibernate.format_sql: true
       hibernate.default_batch_fetch_size: 100
-  h2.console.enabled : true
+  h2.console.enable : true
   sql.init.mode: always
   data.rest:
     base-path: /api
@@ -37,3 +37,5 @@ spring:
 #    driverClassName: org.h2.Driver
 #  sql.init.mode: always
 #  test.database.replace: none
+=======
+  sql.init.mode: always
