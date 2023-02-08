@@ -25,6 +25,8 @@ spring:
   data.rest:
     base-path: /api
     detection-strategy: annotated
+  thymeleaf3.decoupled-logic: true
+
 
 
 
@@ -37,5 +39,5 @@ spring:
 #    driverClassName: org.h2.Driver
 #  sql.init.mode: always
 #  test.database.replace: none
-=======
-  sql.init.mode: always
+# =======
+#  sql.init.mode: always
